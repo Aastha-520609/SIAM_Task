@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style_SIAM.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UNIQUE MEALS</title>
+        <link rel="icon" href="https://img.icons8.com/color/48/000000/restaurant-building.png"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="home">
+         <nav>
+            <img class="closeMenu" src="https://img.icons8.com/dusk/64/4a90e2/menu.png" width="40px" height="40px" onclick="showMenu()">
+             <img src="images_SIAM.png" Width="180" height="150">
+             </div>
+             <div class="nav-links" id="navLinks">
+                <img class="closeMenu" src="https://img.icons8.com/color/48/000000/multiply.png" onclick="hideMenu()">
+                   <ul>
+                       <li><a href="#About">ABOUT US</a></li>
+                       <li><a href="#chef">CHEFS & CUISINIES</a></li>
+                       <li> <a href="#Menu">OUR SPECIALS</a> </li>
+                       <li> <a href="#contact">CONTACT US</a></li>
+                   </ul>
+               </div>
+         </nav>
+        </section>
+            <div class="text-box">
+                <h2> Here to Serve </h2>
+                <p>EAT &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp DRINK &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp RELAX</p>
+                <a href="SIAM.html">ORDER NOW</a>
+                <a href="SIAM.html"> RESERVE YOUR TABLE</a>
+            </div>
+    
+         <!-- JAVASCRIPT PART FOR PHONE VIEW-->
+         <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu()
+            {
+               navLinks.style.right="0";           
+            }
+            function hideMenu()
+            {
+               navLinks.style.right="-200px";
+            }
+        </script>
+
+        <section id="About" class="AboutUS">
+            <h1>GET TO KNOW US </h1>
+            <div class="row">
+                <div class="AboutUS-col">
+                    <h4>How IT ALL STARTED</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing adipisicing elit. Placeat consequatur ipsam incidunt 
+                        fugiat in. Enim culpa eius reprehenderit quo doloribus ea, vitae natus soluta at dolor delectus eligendi 
+                        distinctio consequuntur?.</p>
+                </div>
+                <div class="AboutUS-col">
+                   <h4>WE AT PRESENT</h4>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, commodiasperiores 
+                      nobis molestias corruptivel facere vitae odio! Incidunt aliquam, similique exercitationem 
+                      vitae fugiat corporis. Eaque error dolore sint! Delectus.</p>
+               </div>
+               <div class="AboutUS-col">
+                   <h4>OUR ACHIEVEMENTS</h4>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, commodiasperiores 
+                      nobis molestias corruptivel facere vitae odio! Incidunt aliquam, similique exercitationem 
+                      vitae fugiat corporis. Eaque error dolore sint! Delectus.</p>
+               </div>
+            </div>
+        </section>
+       
+        <section id="chef"  class="cuisineChef">
+            <h1>CUISINIES AND CHEFS</h1>
+            <div class="row-c">
+                <div class="chef-col">
+                    <h4> Chef Ranveer Brar</h4>
+                    <h3>INDIAN CUISINIES</h3>
+                    <ul>
+                        <li>Biryani</li>
+                        <li>Idli Sambar</li>
+                        <li>kebab</li>
+                        <li>Chole Bhature</li>
+                        <li>Butter Chicken</li>
+                        <li>Farsans</li>
+                        <li>Rogan Josh</li>
+                        <li>Butter Paneer</li>
+                        <li>Dal Makhni</li>
+                        <li>Naan | Paratha</li>
+                    </ul>
+                </div>
+                <div class="chef-col">
+                   <h4>Chef Massimo Bottura </h4>
+                   <h3>ITALIAN CUISINES</h3>
+                   <ul>
+                    <li>Caprese Salad with Pesto Sauce</li>
+                    <li>Margherita Pizza</li>
+                    <li>Mushroom Risotto</li>
+                    <li> Pasta Carbonara</li>
+                    <li> Focaccia Bread</li>
+                    <li>Bruschetta</li>
+                    <li>Spaghetti</li>
+                    <li>Ossobuco</li>
+                    <li>Polenta</li>
+                    <li> Ribollita</li>
+                </ul>
+
+               </div>
+               <div class="chef-col">
+                <h4>Chef Martin Yan</h4>
+                <h3>CHINESE CUISINES</h3>
+                <ul>
+                    <li>Bat Soup</li>
+                    <li>Sesame Chicken</li>
+                    <li>Wonton Soup</li> 
+                    <li>Dim Sums</li>
+                    <li>Shitake Fried Rice with Water Chestnuts</li>
+                    <li>Peri Peri Chicken Satay</li>
+                    <li>Veg Hakka Noodles</li>
+                    <li>Honey Chilli Potato</li>
+                    <li>Stir Fried Tofu with Rice</li>
+                    <li>Vegetable Manchow Soup</li>
+                    
+                </ul>
+               </div>
+               <div class="chef-col">
+                <h4>Chef Santosh Shah</h4>
+                <h3>NEPALI CUISINES</h3>
+                <ul>
+                    <li>MOMO</li>
+                    <li>Thakali Khana</li>
+                    <li>Dal puri with chicken curry</li> 
+                    <li>Sekuwa</li>
+                    <li>Mutton chiura with gundruk</li>
+                    <li>Yomari</li>
+                    <li>Dhido</li>
+                    <li>Choila</li>
+                    <li>Sel roti</li>
+                    <li>jJuju dhau</li>    
+                </ul>
+               </div>
+            </div>
+        </section>
+        <section id="Menu" class="menu">
+            <h1>MENU</h1>
+            <div class="main-menu">
+                    <ul>
+                        <li>Biryani</li>
+                        <li>Idli Sambar</li>
+                        <li>kebab</li>
+                        <li>Chole Bhature</li>
+                        <li>Butter Chicken</li>
+                        <li>Farsans</li>
+                        <li>Rogan Josh</li>
+                        <li>Butter Paneer</li>
+                        <li>Dal Makhni</li>
+                        <li>Naan | Paratha</li>
+                        <li>MOMO</li>
+                        <li>Thakali Khana</li>
+                        <li>Dal puri with chicken curry</li> 
+                        <li>Sekuwa</li>
+                        <li>Mutton chiura with gundruk</li>
+                        <li>Yomari</li>
+                        <li>Dhido</li>
+                        <li>Choila</li>
+                        <li>Sel roti</li>
+                        <li>jJuju dhau</li>  
+                    </ul>
+                </div>  
+        </section>>
+       <section id="contact" class="contactUs">
+           <h1>Contact Us</h1>
+        <div class="row-co">
+            <div class="co-col">
+                <img src="https://img.icons8.com/ios-filled/50/4a90e2/phone.png"/>
+                <h4>Phone</h4>
+                <p>+9779856797 <br> +9778624242</p>   
+            </div>
+            <div class="co-col">
+                <img src="https://img.icons8.com/ios-filled/50/4a90e2/email-open.png"/>
+               <h4>Email</h4>
+               <p>abc@gmail.com <br> travel@gmail.com</p>
+               
+           </div>
+           <div class="co-col">
+            <img src="https://img.icons8.com/material-sharp/48/4a90e2/address.png"/>
+               <h4>Address</h4>  
+               <p>abc company, AP <br> travel company, UP</p>
+           </div>
+        </div>
+
+       </section>
+    
+    </body>
+</html>
